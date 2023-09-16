@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Galery</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+        #container {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery {
+            display: inline-block;
+            border: 1px solid red;
+            /* float: left;
+            width: 150px; */
+            padding: 20px;
+            margin: 20px;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+        }
+        .gallery:hover {
+            cursor: pointer;
+            border-radius: 25px;
+            box-shadow: 10px -10px grey;
+            border: 1px solid black;
+        }
+        .desc {
+            padding: 10px;
+            text-align: center;
+        }
+        a:visited {
+            color: violet;
+        }
+        a:hover {
+            color: rgb(29, 204, 204);
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Gallery</h2>
+    <div id="container">
+        <div class="gallery">
+            <a href="images/football.png" target="_blank">
+                <img src="images/football.png" alt="Football" />
+                <div class="desc">Football</div>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="images/barcelona.png" target="_blank">
+                <img src="images/barcelona.png" alt="Barcelona" />
+                <div class="desc">Barcelona</div>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="images/brazil.png" target="_blank">
+                <img src="images/brazil.png" alt="Brazil" />
+                <div class="desc">Brazil</div>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="images/cap.png" target="_blank">
+                <img src="images/cap.png" alt="Cap" />
+                <div class="desc">Cap</div>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="images/chelsea.png" target="_blank">
+                <img src="images/chelsea.png" alt="Chelsea" />
+                <div class="desc">Chelsea</div>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="images/shoes.png" target="_blank">
+                <img src="images/shoes.png" alt="Shoes" />
+                <div class="desc">Shoes</div>
+            </a>
+        </div>
+        <div class="gallery">
+            <a href="images/wallet.png" target="_blank">
+                <img src="images/wallet.png" alt="Wallet" />
+                <div class="desc">Wallet</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
